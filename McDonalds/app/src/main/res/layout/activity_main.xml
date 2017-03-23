@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.dell.mcdonalds.MainActivity">
+
+    <TextView
+        android:id="@+id/mcdonalds_text_Views"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:fontFamily="arial"
+        android:paddingLeft="16dp"
+        android:paddingTop="16dp"
+        android:text="McDonald's"
+        android:textColor="#ff0000"
+        android:textSize="40sp" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/mcdonalds" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Address-Fun Cinema,Ambala City"
+        android:textColor="#4000ff"
+        android:textSize="24sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="arial"
+        android:paddingTop="8dp"
+        android:text="Contact: 7404721514"
+        android:textColor="#4000ff"
+        android:textSize="24sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="arial"
+        android:paddingTop="8dp"
+        android:text="ORDER NOW!"
+        android:textColor="#4000ff"
+        android:textSize="24sp" />
+
+</LinearLayout>

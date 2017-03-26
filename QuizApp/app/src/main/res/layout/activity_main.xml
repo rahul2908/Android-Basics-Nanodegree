@@ -1,0 +1,322 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <ScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        tools:context="com.example.dell.quizapp.MainActivity"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="#ffffff">
+    <LinearLayout
+        android:id="@+id/activity_main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        android:orientation="vertical"
+        android:weightSum="1">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/heading"
+            android:textAllCaps="true"
+            android:textColor="#3F51B5"
+            android:fontFamily="serif"
+            android:layout_gravity="center_horizontal"
+            android:textSize="54sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Q1.What NBA team did Micheal Jordan first play for?"
+            android:textColor="#000000"
+            android:fontFamily="serif"
+            android:layout_marginTop="16dp"
+            android:textSize="20sp" />
+
+        <RadioGroup
+            android:id="@+id/radio_group1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="8dp">
+            <RadioButton
+                android:id="@+id/the_chicago_bulls_radio_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="The Chicago Bulls"
+                android:textAppearance="?android:textAppearanceMedium" />
+            <RadioButton
+                android:id="@+id/the_Boston_Celtics_radio_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="The Boston Celtics"
+                android:textAppearance="?android:textAppearanceMedium" />
+            <RadioButton
+                android:id="@+id/the_Washington_Wizards_radio_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="The Washington Wizards"
+                android:textAppearance="?android:textAppearanceMedium" />
+            <RadioButton
+                android:id="@+id/the_Chatlotte_Bobcats_radio_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="The Chatlotte Bobcats"
+                android:textAppearance="?android:textAppearanceMedium" />
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Q2.Which of these numbers are multiple of 4?"
+            android:textColor="#000000"
+            android:fontFamily="serif"
+            android:layout_marginTop="16dp"
+            android:textSize="20sp" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <CheckBox
+                android:id="@+id/sixtyfour_checkbox"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="64"
+                android:layout_marginTop="16dp"
+                android:layout_marginLeft="24dp"
+                android:layout_marginRight="64dp"
+                android:textAppearance="?android:textAppearanceMedium" />
+
+            <CheckBox
+                android:id="@+id/fiftyseven_checkbox"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="57"
+                android:layout_marginTop="16dp"
+                android:layout_marginLeft="64dp"
+                android:textAppearance="?android:textAppearanceMedium" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <CheckBox
+                android:id="@+id/thirtySix_checkbox"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="36"
+                android:layout_marginTop="16dp"
+                android:layout_marginLeft="24dp"
+                android:layout_marginRight="64dp"
+                android:textAppearance="?android:textAppearanceMedium" />
+
+            <CheckBox
+                android:id="@+id/fourtytwo_checkbox"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="42"
+                android:layout_marginTop="16dp"
+                android:layout_marginLeft="64dp"
+                android:textAppearance="?android:textAppearanceMedium" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Q3.How many feet are in a mile?"
+            android:textColor="#000000"
+            android:fontFamily="serif"
+            android:layout_marginTop="16dp"
+            android:textSize="20sp" />
+
+        <RadioGroup
+            android:id="@+id/radio_group2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="8dp">
+            <RadioButton
+                android:id="@+id/thirteen_radio_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="13"
+                android:textAppearance="?android:textAppearanceMedium" />
+            <RadioButton
+                android:id="@+id/fivetwoeightzero_radio_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="5280"
+                android:textAppearance="?android:textAppearanceMedium" />
+            <RadioButton
+                android:id="@+id/oneeightfivesevensix_radio_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="18576"
+                android:textAppearance="?android:textAppearanceMedium" />
+            <RadioButton
+                android:id="@+id/none_radio_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="None of the Above"
+                android:textAppearance="?android:textAppearanceMedium" />
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Q4.Who was the first President of the India?"
+            android:textColor="#000000"
+            android:fontFamily="serif"
+            android:layout_marginTop="16dp"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/text1_edit_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="First President Of India"
+            android:inputType="textPostalAddress|textCapWords|textNoSuggestions" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Q5.Which of these countries come under the Asia?"
+            android:textColor="#000000"
+            android:fontFamily="serif"
+            android:layout_marginTop="16dp"
+            android:textSize="20sp"
+            />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <CheckBox
+                android:id="@+id/south_Africa_checkbox"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="South Africa"
+                android:layout_marginTop="16dp"
+                android:layout_marginLeft="24dp"
+                android:layout_marginRight="64dp"
+                android:textAppearance="?android:textAppearanceMedium" />
+
+            <CheckBox
+                android:id="@+id/sri_Lanka_checkbox"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Sri Lanka"
+                android:layout_marginTop="16dp"
+                android:layout_marginLeft="6dp"
+                android:textAppearance="?android:textAppearanceMedium" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <CheckBox
+                android:id="@+id/india_checkbox"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="India"
+                android:layout_marginTop="16dp"
+                android:layout_marginLeft="24dp"
+                android:layout_marginRight="64dp"
+                android:textAppearance="?android:textAppearanceMedium" />
+
+            <CheckBox
+                android:id="@+id/england_checkbox"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="England"
+                android:layout_marginTop="16dp"
+                android:layout_marginLeft="64dp"
+                android:textAppearance="?android:textAppearanceMedium" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Q6.A farmer has 13 cows. A bolt of lightning kills all but 5 of them. How many cows survived?"
+            android:textColor="#000000"
+            android:fontFamily="serif"
+            android:layout_marginTop="16dp"
+            android:textSize="20sp" />
+
+        <RadioGroup
+            android:id="@+id/radio_group3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="8dp">
+        <RadioButton
+            android:id="@+id/five_radio_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="5"
+            android:textAppearance="?android:textAppearanceMedium" />
+        <RadioButton
+            android:id="@+id/eight_radio_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="8"
+            android:textAppearance="?android:textAppearanceMedium" />
+        <RadioButton
+            android:id="@+id/seven_radio_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="7"
+            android:textAppearance="?android:textAppearanceMedium" />
+        <RadioButton
+            android:id="@+id/zero_radio_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0"
+            android:textAppearance="?android:textAppearanceMedium" />
+    </RadioGroup>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Q7.Who is the currently President of the America?"
+            android:textColor="#000000"
+            android:fontFamily="serif"
+            android:layout_marginTop="16dp"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/text2_edit_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Current American President "
+            android:inputType="textPostalAddress|textCapWords|textNoSuggestions" />
+
+        <Button
+            android:id="@+id/submit_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="32dp"
+            android:onClick="submitAnswers"
+            android:text="Submit" />
+
+        <TextView
+            android:id="@+id/result_text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Result will be here"
+            android:textColor="#009688"
+            android:fontFamily="casual"
+            android:textSize="16sp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="16dp" />
+
+
+    </LinearLayout>
+    </ScrollView>

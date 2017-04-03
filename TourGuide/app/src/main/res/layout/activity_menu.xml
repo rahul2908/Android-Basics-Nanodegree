@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_menu"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="horizontal"
+    android:background="#EC407A"
+    tools:context="com.example.dell.tourguide.MenuActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="#9575CD">
+
+        <TextView
+            android:id="@+id/menu_text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="MENU"
+            android:layout_gravity="center"
+            android:fontFamily="serif"
+            android:textSize="@dimen/heading"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:layout_weight="1">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:layout_weight="1">
+
+                <TextView
+                    android:id="@+id/hotels_text_view"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="HOTELS"
+                    android:textSize="24sp"
+                    android:gravity="center"
+                    android:background="#E57373"
+                    android:layout_below="@id/menu_text_view"
+                    android:layout_weight="1"
+                    android:minHeight="124dp"/>
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="4dp" />
+
+
+
+                <TextView
+                    android:id="@+id/places_text_view"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="PLACES"
+                    android:textSize="24sp"
+                    android:gravity="center"
+                    android:background="#E57373"
+                    android:layout_below="@id/menu_text_view"
+                    android:minHeight="124dp"/>
+
+            </LinearLayout>
+
+            <Button
+                android:layout_width="4dp"
+                android:layout_height="match_parent" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:layout_weight="1">
+
+                <TextView
+                    android:id="@+id/restaurants_text_view"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="RESTAURANT"
+                    android:textSize="24sp"
+                    android:gravity="center"
+                    android:background="#E57373"
+                    android:layout_below="@id/menu_text_view"
+                    android:layout_weight="1"
+                    android:minHeight="124dp"/>
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="4dp" />
+
+
+                <TextView
+                    android:id="@+id/gardens_text_view"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="GARDENS"
+                    android:textSize="24sp"
+                    android:gravity="center"
+                    android:background="#E57373"
+                    android:layout_below="@id/menu_text_view"
+                    android:minHeight="124dp"
+                    />
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+
+
+
+
+
+
+
+</RelativeLayout>

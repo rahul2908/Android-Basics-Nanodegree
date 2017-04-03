@@ -1,0 +1,48 @@
+<resources>
+    <string name="app_name">Tour Guide</string>
+
+    <string name="jwmarriot">JW Marroit</string>
+    <string name="mountainview">Hotel Mountview</string>
+    <string name="tajhotel">Taj Hotel</string>
+    <string name="hyatthotel">Hyatt Hotel</string>
+    <string name="cityheart">Hotel City Heart</string>
+    <string name="lemontea">Lemon Tea Hotel</string>
+    <string name="toyhotel">The TOY Hotel</string>
+    <string name="bellavista">The Bella Vista Hotel</string>
+    <string name="sunbeam">Hotel Sunbeam</string>
+    <string name="hotelcama">Hotel Cama</string>
+
+    <string name="rosegarden">Rose Garden</string>
+    <string name="rock">Rock Garden</string>
+    <string name="trafficpark">Children Traffic Park</string>
+    <string name="butterfly">Butterfly Park</string>
+    <string name="japnese">Japenese Garden</string>
+    <string name="fragnance">Garden Of Fragrance</string>
+    <string name="rajivgandhi">Rajiv Gandhi Technology Park</string>
+    <string name="terraced"> The Terraced Garden</string>
+    <string name="shantikunj">Shanti Kunj Park</string>
+    <string name="pinjore">Yadavindra Garden Pinjore</string>
+
+    <string name="rustic">Rustic Door</string>
+    <string name="kylin">Kylin</string>
+    <string name="piratesgrill">Pirates Of Grill</string>
+    <string name="mainlandchina">Mainland China</string>
+    <string name="swaghat">Swagath Restaurant</string>
+    <string name="whistlingduck">Whistling Duck</string>
+    <string name="paldhaba">PAL Dhaba</string>
+    <string name="gopal">Gopal Sweets</string>
+    <string name="sindhi">Sindhi Sweets</string>
+    <string name="buffet">Buffet Hut</string>
+
+    <string name="rockgarden">Rock Garden</string>
+    <string name="sukhna">Sukhna Lake</string>
+    <string name="kalagram">Kalagram</string>
+    <string name="elante">Elante Mall</string>
+    <string name="openhand">Open Hand Monument</string>
+    <string name="childart">Child Art Gallery</string>
+    <string name="govt">Government Museum</string>
+    <string name="dolls">Dolls Museum</string>
+    <string name="chattbir">Chattbir Zoo</string>
+    <string name="dt">DT Mall</string>
+
+</resources>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/list_item_height"
+    android:minHeight="@dimen/list_item_height"
+    android:background="#BDBDBD">
+    <LinearLayout
+        android:id="@+id/text_container"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/list_item_height"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/image_view"
+            android:layout_width="220dp"
+            android:layout_height="@dimen/list_item_height"
+            android:layout_weight="1"/>
+
+
+        <TextView
+            android:id="@+id/name_text_view"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/list_item_height"
+            android:layout_gravity="center"
+            android:paddingTop="16dp"
+            android:paddingLeft="16dp"
+            android:textSize="@dimen/text_diplay_size"
+            android:layout_toRightOf="@id/image_view"
+            android:layout_weight="1"/>
+
+
+        <ImageView
+            android:id="@+id/map_image_view"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:src="@mipmap/ic_place_black_24dp"
+            android:layout_toRightOf="@id/name_text_view"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="16dp"
+            android:layout_gravity="center_vertical"
+            />
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>

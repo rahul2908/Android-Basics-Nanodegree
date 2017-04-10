@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Habit Tracker App</string>
+    <string name="title_activity_catalog">CatalogActivity</string>
+
+    <string name="name">Name</string>
+    <string name="roll_no">Roll No</string>
+    <string name="gender">Gender</string>
+    <string name="age">Age</string>
+
+    <string name="hint_student_name">Student Name</string>
+    <string name="hint_student_rollno">Student Roll No</string>
+    <string name="hint_student_age">Student Age</string>
+
+    <string name="action_save">Save</string>
+
+    <string name="action_delete">Delete</string>
+
+    <string name="action_insert_dummy_data">Insert Dummy Data</string>
+
+    <string name="action_delete_all_entries">Delete All Students Info</string>
+
+    <string name="gender_unknown">Unknown</string>
+    <string name="gender_male">Male</string>
+    <string name="gender_female">Female</string>
+</resources>
